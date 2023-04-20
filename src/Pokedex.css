@@ -1,0 +1,76 @@
+.pokeCard{
+    border:2px solid black;
+    width:200px;
+    margin: 15px;
+    padding: 15px;
+}
+.image {
+    width: 200px;
+}
+.todoTask{
+    background-color:#e0dcdc;
+    display: inline-block;
+    width:300px;
+    height: 400px;
+    border: 1px solid;
+    margin: 15px;
+}
+h2{
+    color: blue;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.first-comp{
+    border:2px solid red;
+    background-color:blue;
+    width:300px;
+    height:300px;
+    display: inline-block;
+}
+.second-comp{
+    border:2px solid red;
+    background-color:yellow;
+    width:300px;
+    height:300px;
+    display: inline-block;
+}
+.third-comp{
+    border:2px solid red;
+    background-color:green;
+    width:300px;
+    height:300px;
+    display: inline-block;
+}
+.container{  
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:120px;
+}
+.items{
+    width: 300px;
+    height: 250px;
+    padding: 50px;
+    background-color: aqua;
+}
+button{
+    width:15%;
+    height:55px;
+    margin-left:42%;
+    background-color: blue;
+    color: aliceblue;
+    font-size: 24px;
+    margin-top: 15px;
+    border-radius: 25px;
+}
+h1{
+    font-size: 64px;
+    color: coral;
+    text-align: center;
+    margin-top: 80px;
+}
